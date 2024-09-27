@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" *ngFor="let item of clients">
+        <div class="contain">
+            <h1>Fiche client</h1>
+            <ul>
+                <li>{{ item.raison_Sociale }}</li>
+                <li>{{ item.libelle_Client }}</li>
+                <li>{{ item.numero_Tel }}</li>
+                <li>{{ item.mail }}</li>
+                <li>{{ item.adresse }}</li>
+                <li><p>Nom du conseiller</p></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
